@@ -3,14 +3,14 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title C2L2C
-# @raycast.mode fullOutput
+# @raycast.mode compact
 # @raycast.presentationOptions keep
+# @raycast.inputType text
 # @raycast.packageName Raycast Scripts
-
 
 # Optional parameters:
 # @raycast.icon 😜
-# @raycast.argument1 { "type": "text", "placeholder": "Line" }
+# @raycast.argument1 { "type": "text", "placeholder": "Paste your string here", "optional": false  }
 # @raycast.needsConfirmation false
 
 # Documentation:
@@ -59,6 +59,6 @@ else
   done
 fi
 
-echo "In: $input"
-echo "Out: $output"
+echo "In: [$input]"
+echo "Out: [$output] (copied to clipboard)"
 echo -n "$output" | pbcopy
