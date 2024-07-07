@@ -5,14 +5,18 @@
 # @raycast.title C2L2C
 # @raycast.mode fullOutput
 # @raycast.presentationOptions keep
+# @raycast.packageName Raycast Scripts
+
 
 # Optional parameters:
 # @raycast.icon 😜
 # @raycast.argument1 { "type": "text", "placeholder": "Line" }
+# @raycast.needsConfirmation false
 
 # Documentation:
+# @raycast.description This is a script command for Raycast that converts a string from a Latin keyboard input (en) to Cyrillic and vice versa (https://github.com/mauzon/rc-c2l-l2c-convert/)
 # @raycast.author Alex Mauzon
-# @raycast.authorURL https://github.com/mauzon
+# @raycast.authorURL https://www.linkedin.com/in/mauzon/
 
 export LANG="en_US.UTF-8"
 
